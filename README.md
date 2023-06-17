@@ -1,11 +1,11 @@
-About r-forecasthybrid
-======================
+About r-forecasthybrid-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-forecasthybrid-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.com/dashaub/forecastHybrid, https://github.com/ellisp/forecastHybrid
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-forecasthybrid-feedstock/blob/main/LICENSE.txt)
 
 Summary: Convenient functions for ensemble forecasts in R combining approaches from the 'forecast' package. Forecasts generated from auto.arima(), ets(), thetaf(), nnetar(), stlm(), tbats(), and snaive() can be combined with equal weights, weights based on in-sample errors (introduced by Bates & Granger (1969) <doi:10.1057/jors.1969.103>), or cross-validated weights. Cross validation for time series data with user-supplied models and forecasting functions is also supported to evaluate model accuracy.
 
