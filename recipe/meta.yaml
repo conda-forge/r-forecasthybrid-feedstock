@@ -1,6 +1,5 @@
 {% set version = '5.0.19' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-forecasthybrid
@@ -13,8 +12,7 @@ source:
   sha256: c1d380086987ea9e60ea3c1970ae6b6bd3027723d0cd68870c203f45ebe2e3dd
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
