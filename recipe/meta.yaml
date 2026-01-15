@@ -1,4 +1,4 @@
-{% set version = "5.1.20" %}
+{% set version = "5.1.21" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/forecastHybrid_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/forecastHybrid/forecastHybrid_{{ version }}.tar.gz
-  sha256: d1764420471d6bece576d9b60e452b060a2a1d93d91b2ebc257321717c4387b5
+  sha256: d48bc548d37440422bb47976da5eb39191df926900c3500c1383b72777c4d2f4
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
